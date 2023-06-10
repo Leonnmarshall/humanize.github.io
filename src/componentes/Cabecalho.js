@@ -8,7 +8,7 @@ const Cabecalho = () => {
     return (
         <nav className={`navbar navbar-expand-lg bg-${tema}`} data-bs-theme={tema}>
             <div className="container-fluid px-5">
-                <Link className="navbar-brand" to="/">Plataforma Humanize</Link>
+                <Link className="navbar-brand" to="/home">Plataforma Humanize</Link>
                 <div className="form-check form-switch">
                     <input
                         className="form-check-input"

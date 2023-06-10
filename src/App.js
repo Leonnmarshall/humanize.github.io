@@ -5,9 +5,13 @@ import TemaProvider from "./contexts/TemaContext";
 import Home from "./paginas/Home/index";
 import SearchPage from "./paginas/Search/index";
 import ChartsPage from "./paginas/Dados/ChartsPage";
-
+import { useEffect } from "react";
 
 const App = () => {
+  useEffect(() => {
+    window.location.pathname === "/" && window.location.replace("/home");
+  }, []);
+
   return (
     <>
       <TemaProvider>
@@ -23,6 +27,6 @@ const App = () => {
       </TemaProvider>
     </>
   );
-}
+};
 
 export default App;

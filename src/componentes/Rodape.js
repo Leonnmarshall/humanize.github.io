@@ -13,7 +13,7 @@ const Rodape = () => {
             <h5>MAPA DO SITE</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <Link to="/" className="nav-link p-0 text-muted">
+                <Link to="/home" className="nav-link p-0 text-muted">
                   INICIO
                 </Link>
               </li>
