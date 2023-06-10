@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Cabecalho from "./componentes/Cabecalho";
 import Rodape from "./componentes/Rodape";
 import TemaProvider from "./contexts/TemaContext";
-import Home from "./paginas/Home";
+import Home from "./paginas/Home/index";
 import SearchPage from "./paginas/Search/index";
 import ChartsPage from "./paginas/Dados/ChartsPage";
 
@@ -14,7 +14,7 @@ const App = () => {
         <BrowserRouter>
           <Cabecalho />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/charts" element={<ChartsPage />} />
             <Route path="/busca" element={<SearchPage />} />
           </Routes>

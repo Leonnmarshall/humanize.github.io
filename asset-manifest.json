@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/humanize.github.io/static/css/main.ff9cefa5.css",
-    "main.js": "/humanize.github.io/static/js/main.38dcc301.js",
+    "main.css": "/humanize.github.io/static/css/main.f523dde6.css",
+    "main.js": "/humanize.github.io/static/js/main.349e7701.js",
     "static/js/703.9c003aa4.chunk.js": "/humanize.github.io/static/js/703.9c003aa4.chunk.js",
     "static/js/102.a5e57463.chunk.js": "/humanize.github.io/static/js/102.a5e57463.chunk.js",
     "static/media/logo.png": "/humanize.github.io/static/media/logo.80b532c96f7bdbc18a76.png",
     "index.html": "/humanize.github.io/index.html",
-    "main.ff9cefa5.css.map": "/humanize.github.io/static/css/main.ff9cefa5.css.map",
-    "main.38dcc301.js.map": "/humanize.github.io/static/js/main.38dcc301.js.map",
+    "main.f523dde6.css.map": "/humanize.github.io/static/css/main.f523dde6.css.map",
+    "main.349e7701.js.map": "/humanize.github.io/static/js/main.349e7701.js.map",
     "703.9c003aa4.chunk.js.map": "/humanize.github.io/static/js/703.9c003aa4.chunk.js.map",
     "102.a5e57463.chunk.js.map": "/humanize.github.io/static/js/102.a5e57463.chunk.js.map"
   },
-  
   "entrypoints": [
-    "static/css/main.ff9cefa5.css",
-    "static/js/main.38dcc301.js"
+    "static/css/main.f523dde6.css",
+    "static/js/main.349e7701.js"
   ]
 }
